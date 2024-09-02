@@ -1,0 +1,278 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+}
+img{
+    width:100%;
+}
+.left
+{
+    width: 20%;
+    background-color: rgb(90, 87, 87);
+    height: 100vh;
+    position:fixed;
+    color:rgb(255, 255, 255);
+}
+.logo img{
+    width:20%;
+}
+.logo h1{
+    margin-top: 10%;
+}
+.logo{
+    display:flex;
+    margin-top: 10%;
+    background-color: white;
+    color:black;
+    text-indent:20px;
+    line-height: 1%;
+}
+nav{
+    margin-top: -7%;
+    padding-top:20%;
+}
+a{
+    padding: 1% 20%;
+    padding: 0 auto;
+    display: flex;
+    background-color: rgb(9, 12, 12);
+    border: 2px solid;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size:smaller;   
+}
+.right
+{
+    width:80%;
+    background-color:rgb(255, 255, 255);
+    margin-left: 20%;
+}
+
+.container
+{
+    display: flex;
+
+}
+.right .img1{
+    position:relative;
+    filter:brightness(50%);
+    width:100%;
+    border: 5px solid;
+}
+.box{
+    width:80%;
+    margin-left: 15%;
+    color: rgb(255, 255, 255);
+}
+.one{
+    position:absolute;
+    top:10%;
+    width:30%;
+    left:45%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.one button{
+    background-color: rgb(5, 238, 255);
+    cursor: pointer;
+
+}
+
+.two{
+    text-align: center;
+    margin: 10% 0;
+}
+.two h4{
+    background-color: coral;
+    position: absolute;
+    padding: 1%;
+    margin-top: -9px;
+}
+hr{
+   border:2px solid  coral;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+}
+.girl
+{
+   width: 30.33%;
+   text-align: center;
+}
+.girl h3{
+    color: coral;   
+}
+.four{
+    display:flex;
+    margin-top: 5%;
+}
+.afour{
+    width:45%;
+}
+.afour img{
+    margin-left: 20%;
+}
+.sblue{
+    border:2px solid blueviolet;
+}
+.five h4{
+    background-color: blueviolet;
+    position: absolute;
+    padding: 1% ;
+    margin-top: -9px;
+}
+.graphic,.html,.word,.marketing{
+    background-color: rgb(194, 194, 194);
+}
+.six{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10%;
+}
+.col{
+    background-color: blueviolet;
+    width:30%;
+    padding:3% 3%;
+}
+.col img{
+    width: 10%;
+}
+.seven
+{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+   
+}
+.skill
+{
+    border: 1px solid;
+    width:60%;
+}
+.graphic{
+    height:20px;
+    border:1px solid;
+    margin-bottom:4%;
+}
+.html,.word,.marketing{
+    border:1px solid;
+    margin-bottom: 4%;
+}
+.chart
+{
+    width: 30%;
+}
+.graphic .gbox{
+    width:90%;
+    background-color:blueviolet;
+}
+.html .hbox{
+    width:75%;
+    background-color:blueviolet;
+}
+.word .wbox{
+    width:66%;
+    background-color:blueviolet;
+}
+.marketing .mbox{
+    width:88%;
+    background-color:blueviolet;
+}
+.pgreen{
+    
+    border:2px solid rgb(43, 226, 165);
+}
+.eight h4{
+    background-color:rgb(43, 226, 165);
+    position: absolute;
+    padding: 1% ;
+    margin-top: -9px;
+}
+
+.nine .row
+{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap:2%;
+    text-align: center;
+    color:rgb(43, 226, 165) ;
+    margin-bottom: 3%;
+}
+.nine button{
+    margin-left: 44%;
+    padding: 1%;  
+    background-color:rgb(43, 226, 165);
+}
+.ten h4{
+    background-color:rgb(226, 43, 156);
+    position: absolute;
+    padding: 1% ;
+    margin-top: -9px;
+
+}
+.cpink{
+    border: 2px solid rgb(226, 43, 156);
+}
+.map{
+    width:65%;
+    position:absolute;
+    filter:brightness(50%);
+}
+.eleven .mapa
+{
+    position: relative;
+    width:30%;
+    margin-top: 5%;
+    margin-left: 40%;
+    text-align: center;
+    border: 1px solid;
+    color: black;
+    background-color: white;
+}
+
+p{
+    color: black;
+}
+form{
+    margin-top:50%;
+}
+.msg
+{
+    width:80%;
+    height:100px;
+}
+.icon
+{ margin-top: 5%;
+    margin-left: 1%;
+    background-color:rgb(88, 88, 88);
+    height:3% ;
+}
+.fb{
+    display: flex;
+    margin-left: 40%;
+    width: 20%;
+    align-items: center;
+}
+.fb img{
+    margin-top: 25%;
+    margin-left: 10%;
+}
+.footer
+{
+    background-color: black;
+    color: beige;
+    margin-left: 1%;
+}
+@media only screen and (max-width:575px)
+{
+    body{
+        font-size:10px;
+    }
+}
