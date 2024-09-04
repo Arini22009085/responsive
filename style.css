@@ -77,8 +77,7 @@ a{
 }
 .one button{
     background-color: rgb(5, 238, 255);
-    cursor: pointer;
-
+    cursor:pointer;
 }
 
 .two{
@@ -155,7 +154,7 @@ hr{
     width:60%;
 }
 .graphic{
-    height:20px;
+ 
     border:1px solid;
     margin-bottom:4%;
 }
@@ -270,9 +269,12 @@ form{
     color: beige;
     margin-left: 1%;
 }
-@media only screen and (max-width:575px)
+@media(max-width:575px)
 {
     body{
-        font-size:10px;
+        font-size:5px;
+    }
+    button{
+        font-size: 5px;
     }
 }
