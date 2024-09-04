@@ -272,9 +272,9 @@ form{
 @media(max-width:768px)
 {
     body{
-        font-size:5px;
+        font-size:7px;
     }
     button{
-        font-size: 5px;
+        font-size: 7px;
     }
 }
