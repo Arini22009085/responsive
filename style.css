@@ -269,7 +269,7 @@ form{
     color: beige;
     margin-left: 1%;
 }
-@media(max-width:575px)
+@media(max-width:768px)
 {
     body{
         font-size:5px;
